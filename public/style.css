@@ -1,0 +1,106 @@
+/* this code is for whole body sectio n------------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* this code is for whole chat section ------------------------- */
+.chat-section {
+  width: 800px;
+  max-width: 90%;
+  background: #fff;
+  /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05); */
+}
+
+/* this code is for brand section where logo and brand name display ------------------------- */
+.brand {
+  padding: 10px;
+  background: #e9e7e7;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.brand img {
+  width: 40px;
+  height: auto;
+  margin-top: 1px;
+}
+
+.brand h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #444;
+  margin-left: 10px;
+  float: right;
+  /* position: relative; */
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* this code is for message area section where all message appears ------------------------- */
+.message-area {
+  height: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 15px;
+}
+.message {
+  padding: 8px;
+  margin-bottom: 35px;
+  max-width: 800px;
+  position: relative;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+  box-shadow: 0 5px 10px -9px black;
+  margin-bottom: 20px;
+}
+
+.incoming {
+  background: #8f8be8;
+  color: #fff;
+  margin-right: auto;
+}
+
+.outgoing {
+  background: #e9eafd;
+  color: #787986;
+  margin-left: auto;
+}
+
+.message h4 {
+  /* position: absolute; */
+  /* top: -20px;
+  left: 0;
+  color: #333; */
+  font-size: 12px;
+  font-style: italic;
+}
+.message p{
+  font-size: 17px;
+}
+
+/* this code is for typing area where user write message -------------------------------- */
+#text-area {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  padding-left: 15px;
+  font-size: 15px;
+  outline: none;
+  background: #e9e7e7;
+  /* color: #fff; */
+  max-width: 50%;
+  border-radius: 20px;
+  margin-top: 5px;
+  /* position: absolute; */
+}
